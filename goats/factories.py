@@ -15,4 +15,4 @@ class GoatFactory(DjangoModelFactory):
 
     class Meta:
         model = Goat
-        django_get_or_create = ['name']
+        django_get_or_create = ['slug']

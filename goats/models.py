@@ -19,17 +19,15 @@ class Goat(models.Model):
         blank=True,
     )
 
-    photo = models.ImageField(
-        blank=True,
-    )
-
-    def __str__(self):
-        return self.name
-
     class Meta:
         ordering = ['name']
 
+    def __str__(self):
+        """Default name of goat is the name field."""
+
+        return self.name
+
     def get_absolute_url(self):
-        """Canonical URL for goat."""
+        """Canonical URL for goat is the detail page for it."""
 
         return reverse("goat_detail", kwargs={'pk': self.slug})

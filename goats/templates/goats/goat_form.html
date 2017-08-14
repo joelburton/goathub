@@ -6,6 +6,7 @@
   <form method="POST">
     {% csrf_token %}
     {% bootstrap_form form %}
+
     <button class="btn btn-primary" type="submit">Save</button>
     <a class="btn btn-default" href="{% url 'goat_list' %}">Cancel</a>
   </form>
