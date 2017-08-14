@@ -1,0 +1,11 @@
+# required to use images in Django
+Pillow
+
+# very convenient bootstrap templates & tags for fast bootstrap CSS/JS
+django-bootstrap3
+
+# additional useful class-based-view mixins
+django-braces
+
+# makes creating test data easy
+factory-boy

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+
+{% block content %}
+
+  {% if perms.goats.add_goat %}
+    <p><a class="btn btn-info btn-xs" href="{% url 'goat_add' %}">Add Goat</a></p>
+  {% endif %}
+
+  {% for goat in goat_list %}
+    <h2><a href="{{ goat.get_absolute_url }}">{{ goat.name }}</a></h2>
+    <p>{{ goat.description }}</p>
+  {% endfor %}
+
+  {% bootstrap_pagination page_obj %}
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <p>{{ goat.description }}</p>
+
+  <p>
+    {% if perms.goats.change_goat %}
+      <a class="btn btn-info  btn-xs" href="{% url 'goat_edit' pk=goat.pk %}">Edit Goat</a>
+    {% endif %}
+
+    {% if perms.goats.delete_goat %}
+      <a class="btn btn-danger btn-xs" href="{% url 'goat_delete' pk=goat.pk %}">Delete
+        Goat</a>
+    {% endif %}
+  </p>
+
+{% endblock %}

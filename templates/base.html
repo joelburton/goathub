@@ -1,0 +1,21 @@
+{% extends 'bootstrap3/bootstrap3.html' %}
+{% load bootstrap3 %}
+
+{% block bootstrap3_title %}
+  GoatHub: {% block title %}{{ headline }}{% endblock %}
+{% endblock %}
+
+{% block bootstrap3_content %}
+
+  <div class="container">
+    {% bootstrap_messages %}
+    <h1><a href="{% url 'goat_list' %}">GoatHub</a>: {{ headline }}</h1>
+    <hr>
+    {% block content %}{% endblock %}
+
+    <hr>
+    Copyright &copy; GoatHub Inc.
+  </div>
+
+{% endblock %}
+

@@ -1,0 +1,91 @@
+[
+{
+  "model": "goats.goat",
+  "pk": "marvin",
+  "fields": {
+    "name": "Marvin!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie",
+  "fields": {
+    "name": "Meggie!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie2",
+  "fields": {
+    "name": "Meggie2!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie3",
+  "fields": {
+    "name": "Meggie3!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie4",
+  "fields": {
+    "name": "Meggie4!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie5",
+  "fields": {
+    "name": "Meggie5!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie6",
+  "fields": {
+    "name": "Meggie6!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie7",
+  "fields": {
+    "name": "Meggie7!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie8",
+  "fields": {
+    "name": "Meggie8!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "meggie9",
+  "fields": {
+    "name": "Meggie9!",
+    "description": "Description goes here."
+  }
+},
+{
+  "model": "goats.goat",
+  "pk": "nick",
+  "fields": {
+    "name": "Nick",
+    "description": "Description goes here."
+  }
+}
+]
+
